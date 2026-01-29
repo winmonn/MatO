@@ -1,0 +1,148 @@
+/* General body styles */
+body {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+    padding: 0;
+    background: 
+    linear-gradient(rgba(1, 1, 1, 0.8), rgba(1, 1, 1, 0.8)),
+    url('./PICTURES/signup.webp') no-repeat center center/cover;
+    font-family: Arial, sans-serif; /* Ensure consistent font */
+}
+
+/* Logo styles */
+.logo {
+    font-size: 35px; 
+    font-weight: bold;
+    letter-spacing: 2px; 
+    padding: 20px 50px; 
+    border-radius: 10px; 
+    transition: all 0.3s ease; 
+    cursor: pointer; /* Change cursor to pointer */
+    color: #fceecf;
+    background-color: #084570;
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.logo:hover {
+    background-color: white; 
+    color: #192730; 
+}
+
+/* Header and navigation styles */
+.header-nav {
+    width: 100%;
+    position: fixed; /* Fixed position to stay at the top */
+    top: 0; /* Align at the top of the viewport */
+    background: linear-gradient(to bottom, #192730, #084570);
+    color: white;
+    padding: 10px 20px;
+    box-sizing: border-box; /* Ensure padding doesn't affect width */
+    z-index: 1000; /* Ensure the header is above other content */
+    display: flex;
+    justify-content: flex-end; /* Align items horizontally to the right */
+}
+
+.account-cart {
+    display: flex;
+    align-items: center;
+}
+
+.account {
+    margin-left: 20px; /* Adjust spacing between links */
+    cursor: pointer;
+}
+
+/* Navigation links */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(223, 223, 223);
+    font-size: 15px;
+}
+
+.nav-cart {
+    cursor: pointer;
+    transition: color 0.3s ease;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+.nav-item {
+    cursor: pointer;
+    transition: color 0.3s ease;
+    margin-left: 20px; /* Adjust spacing between items */
+    margin-top: 5px;
+}
+
+.nav-item:hover {
+    color: #f68626;
+}
+
+/* Main content container */
+.container {
+    width: 28%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 900; /* Ensure the container is below the header */
+    position: relative; /* Ensure the container is relative for positioning */
+    margin-top: 60px; /* Adjust margin to move content below header */
+}
+
+/* Signup form */
+.login-form {
+    width: 100%;
+    padding: 20px;
+    background: linear-gradient(to bottom, #084570, #192730);
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add shadow for depth */
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 9px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+	border-radius: 10px;
+}
+
+.login-form input[type="submit"] {
+    width: 100%; /* Full width for button */
+    padding: 12px; /* Increase padding for better click area */
+    background-color: gray;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+	margin-top: 20px;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #f68626; /* Change background color on hover */
+}
+
+.login-form input[type="submit"] {
+    color: black;
+}
+
+/* Adjust category section */
+.category-section {
+    flex-grow: 1; /* Take up remaining space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
