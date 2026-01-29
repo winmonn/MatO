@@ -1,45 +1,39 @@
-🏗️ MatO
 
-Construction Materials Marketplace
+# 🏗️ MatO
 
-Overview
+**Construction Materials Marketplace**
 
-MatO is an e-commerce platform for the construction industry, similar to Shopee but focused exclusively on construction materials and supplies. It connects buyers, suppliers, and contractors in one centralized marketplace.
+---
 
-Features
+## 📌 Overview
 
-Buy and sell construction materials and tools
+**MatO** is an e-commerce platform designed for the **construction industry**, similar to Shopee but focused exclusively on **construction materials and supplies**. It connects buyers, suppliers, and contractors in one centralized marketplace.
 
-Industry-specific product categories
+---
 
-Bulk ordering support
+## ✨ Features
 
-Secure payments
+* Marketplace for construction materials and tools
+* Industry-specific product categories
+* Bulk and wholesale ordering
+* Secure in-app payments
+* Order tracking and purchase history
+* Seller verification and ratings
 
-Order tracking and history
+---
 
-Seller ratings and verification
+## 👷 Target Users
 
-Target Users
+* Contractors and engineers
+* Hardware and material suppliers
+* Homeowners and renovators
 
-Contractors and engineers
+---
 
-Hardware and material suppliers
 
-Homeowners and renovators
+## 🎯 Purpose
 
-Tech Stack
+To simplify and centralize the sourcing of construction materials using a platform tailored for construction workflows.
 
-Frontend: Web-based (React / HTML / CSS / JS)
+---
 
-Backend: Node.js / Express
-
-Database: MySQL / Firebase / MongoDB
-
-Purpose
-
-MatO simplifies sourcing construction materials by providing a dedicated platform designed for construction workflows.
-
-License
-
-For educational and development use.
